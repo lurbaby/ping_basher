@@ -3,14 +3,15 @@
 echo "start pinging"
 
 
-url="google.com"
+url="google.ua"
 
-n=100
 
-while [ $n -le 100 ]
+
+while [ 1 ]
 do
   curl -I -L $url  
   # echo "pinged $url"
+  echo "\032"
   ((n--))
 done
 
