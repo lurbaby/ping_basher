@@ -3,7 +3,7 @@
 echo "start pinging"
 
 
-url="pornhub.com"
+url="google.com"
 
 n=100
 
